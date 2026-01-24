@@ -184,6 +184,7 @@ CONFIGURE_ARGS+= \
 	--disable-ospfclient \
 	--disable-doc \
 	--disable-backtrace \
+	--enable-multipath=64
 	--localstatedir=/var/run/frr \
 	--sysconfdir=/etc/frr/ \
 	$(if $(CONFIG_FRR_OPENSSL),--with-crypto=openssl,) \
